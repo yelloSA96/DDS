@@ -1,2 +1,0 @@
-C:\git\Test\DDS\x64\Debug\DDS.exe
-C:\git\Test\DDS\x64\Debug\DDS.pdb

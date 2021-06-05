@@ -24,11 +24,11 @@ using namespace std;
 void manage::Read_and_store(vector<vector<string>>& Input) {
 	
 	fstream tunnel;
-	tunnel.open("storage.txt",fstream::in);
+	tunnel.open("storage/storage.txt",fstream::in);
 	
 	// Check if file exists and display error if not. 
 	if (!tunnel) {
-		cerr << "Unable to open the text file 'storage.txt'!";
+		cerr << "Unable to open the text file 'storage.txt'!\n";
 		exit(1);	// Calls System to stop!
 	}
 
